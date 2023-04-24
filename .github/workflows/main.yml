@@ -1,9 +1,8 @@
-name: Test Node.js App
+  name: Test Node.js App
 on:
   push:
     branches:
     - master
-    
 jobs:
   test:
     runs-on: ubuntu-latest
